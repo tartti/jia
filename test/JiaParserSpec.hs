@@ -19,10 +19,6 @@ spec = do
         it "works with single line input" $
             parse jiaParser "" `shouldSucceedOn` "{\"firstName\":\"X\"}<-InputExample"
 
-        -- This feature is useless?
-        -- it "works with object capture" $
-        --     parse jiaParser "" `shouldSucceedOn` "Obj@{\"phoneNumbers\": {type: home}} <- InputExample"
-
         it "works with taking first elem from list" $
             parse jiaParser "" `shouldSucceedOn` "[Eka.. ] <- Alkiot"
 
@@ -68,9 +64,6 @@ spec = do
         it "works with multi return" $
             parse jiaParser "" `shouldSucceedOn` "return (X,Y) -- John, Smith, limit ei tee mitaan?"
 
-        -- Not implemented in 1.0
-        -- it "works with return arithmetics" $
-        --     parse jiaParser "" `shouldSucceedOn` "return (X++Y) -- kaikki numberit konkatenoituna sama kuin 2. mutta eri tavalla muodostettu"
 
         it "works with single return -- comments" $
             parse jiaParser "" `shouldSucceedOn` "return Eka --listan ekat alkiot"
@@ -89,13 +82,7 @@ spec = do
         it "works with just -- comment line" $
             parse jiaParser "" `shouldSucceedOn` "-- kommentti"
 
-    -- Known bug with having whitespace at beginning of line
     describe "JiaParser multiline tests" $ do
         it "works with multiline input with no whitespace in beginning of lines" $
-            parse jiaParser "" `shouldSucceedOn` "{\"firstName\":\"X\"}<-InputExample\nreturn x" -- Toimii koska ei ws ennen toisen rivin alussa
+            parse jiaParser "" `shouldSucceedOn` "{\"firstName\":\"X\"}<-InputExample\nreturn x"
 
-        -- it "works with multiline input with whitespace in beginning of second line" $
-        --     parse jiaParser "" `shouldSucceedOn` "{\"firstName\":\"X\"}<-InputExample\n return x" -- Failaa koska ws tokan rivin alussa
-
-        -- it "works with multiline input with whitespace in end of first line and beginning of second line" $
-        --     parse jiaParser "" `shouldSucceedOn` "{\"firstName\":\"X\"}<-InputExample \n return x" -- Failaa koska ws tokan rivin alussa

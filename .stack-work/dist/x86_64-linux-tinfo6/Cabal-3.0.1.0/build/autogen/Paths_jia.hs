@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/bin"
-libdir     = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/lib/x86_64-linux-ghc-8.8.4/jia-0.1.0.0-1zZTPBueLF2HVE4fmnT3Nj"
+libdir     = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/lib/x86_64-linux-ghc-8.8.4/jia-0.1.0.0-AyNUjR1FuoH5g61mMDNuLw"
 dynlibdir  = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/lib/x86_64-linux-ghc-8.8.4"
 datadir    = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/share/x86_64-linux-ghc-8.8.4/jia-0.1.0.0"
 libexecdir = "/home/tartti/git/jia/.stack-work/install/x86_64-linux-tinfo6/80915550621e61c51a845a51f175fc7ce7e4f05b27d95b61179b7fdcdc6eefcc/8.8.4/libexec/x86_64-linux-ghc-8.8.4/jia-0.1.0.0"

@@ -66,8 +66,8 @@ execSql (SqlKw SqlKeywordLimit limit) env = case Map.lookup returnJsonKey env of
 execReturn :: ReturnStmt -> Env -> Env
 execReturn (ReturnStmt (RetVal (RetOpNone, (PatternVar var)))) env = case Map.lookup var env of
     Nothing -> error ("Undefined return variable " ++ var ++ "\nENV: " ++ show env)
-    Just value -> Map.insert returnJsonKey value env -- TODO: 
-execReturn (ReturnStmt (RetVal (_, var))) env = undefined -- Jos returnOperator muu kuin none yhdellä onko tässä mitään järkeä?
+    Just value -> Map.insert returnJsonKey value env
+execReturn (ReturnStmt (RetVal (_, var))) env = undefined
 execReturn (ReturnStmt (RetValList [x])) env = execReturn (ReturnStmt x) env
 execReturn _ _ = undefined
 
@@ -77,7 +77,6 @@ execPattern (PsJsonPattern (JsonPattern (JsonElement jsonValue)), (Rside (Patter
     aesonValues = case Map.lookup rSideInputName env of -- here decodePattern should be given input json and env aswell
         (Just (AesonValues x)) -> x
         _ -> error "technical error, there was invalid value for inputJson"
--- decodePattern (myAesonWrapper $ Map.lookup inputJsonKey env) jsonValue env -- here decodePattern should be given input json and env aswell
 execPattern _ _ = undefined
 
 
@@ -87,13 +86,3 @@ myAesonWrapper inputJson = case decode $ fromString inputJson :: Maybe Value of
     Just aesonValues -> [aesonValues]
     Nothing -> error "Decoding input-json failed"
 
-
-
--- Useless?
-eval :: InputLine -> Env
-eval = undefined
-
-
-apu :: (PatternSide, [Value]) -> Env -> Env
-apu (PsJsonPattern (JsonPattern (JsonElement jsonValue)), a) env = undefined --decodePattern jsonValue
-apu _ _ = undefined
