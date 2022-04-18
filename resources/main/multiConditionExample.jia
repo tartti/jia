@@ -1,0 +1,2 @@
+{"age": X, "address":{"city": "NewYork"}, "isAlive": true, "children": []} <- Input
+return X

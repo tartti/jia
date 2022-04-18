@@ -1,0 +1,7 @@
+{
+    "name": "Matti",
+    "age": 10,
+    "someOtherValue": {
+        "nestedValue": "alsoCorrect"
+    }
+}

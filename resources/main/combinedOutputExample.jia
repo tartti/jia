@@ -1,0 +1,3 @@
+{"phoneNumbers":{"number":X}}<-InputExample
+{"faxNumbers":{"number":Y}}<-InputExample
+return X++Y // kaikki numberit konkatenoituna sama kuin 2. mutta eri tavalla muodostettu

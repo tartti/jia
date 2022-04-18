@@ -1,0 +1,7 @@
+{
+    "name": "Matti",
+    "alive": true,
+    "someOtherValue": {
+        "nestedValue": "alsoCorrect"
+    }
+}

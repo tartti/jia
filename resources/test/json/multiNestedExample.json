@@ -1,0 +1,8 @@
+{
+    "someValue": {
+        "nestedValue" : "correctNestedValue"
+    },
+    "someOtherValue": {
+        "nestedValue": "alsoCorrect"
+    }
+}

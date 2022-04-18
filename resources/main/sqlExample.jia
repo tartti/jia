@@ -1,0 +1,3 @@
+{"firstName":X, "lastName":Y}<- Input
+LIMIT 1
+return (X,Y) // John, Smith, limit ei tee mitaan?

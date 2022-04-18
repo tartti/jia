@@ -1,0 +1,3 @@
+{"someOtherValue": x} <- input
+{"nestedValue":retval} <- x
+return retval

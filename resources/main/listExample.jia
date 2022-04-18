@@ -1,0 +1,3 @@
+{*: [ Alkiot.. ]} <- InputExample
+[Eka.. ] <- Alkiot
+return Eka --listan ekat alkiot

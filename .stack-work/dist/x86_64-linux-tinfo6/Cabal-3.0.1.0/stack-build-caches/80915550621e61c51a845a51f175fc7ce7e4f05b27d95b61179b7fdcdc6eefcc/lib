@@ -1,0 +1,24 @@
+/home/tartti/git/jia/ChangeLog.md:
+  hash: 2fcb1c5214983a74a3461c3875ca39062537adec121750616cd75609f95c1e3e
+/home/tartti/git/jia/src/JiaParser.hs:
+  hash: af2b953344ad37e290eb0319b2ae4312474394fa239d9359749ff4857cd0d625
+/home/tartti/git/jia/src/JiaInterpreter.hs:
+  hash: f8a2ae2ae7c1e39caf90c7b414e8b906726344184f704792d1975ec3f57df22a
+/home/tartti/git/jia/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/Paths_jia.hs:
+  hash: 22832e1857e38ed982d93f2c1eb195a6efe8da12ba18ad0991c8f61ce77f838c
+/home/tartti/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/include/ghcversion.h:
+  hash: 297e8571427d670d413977834f5cdfc77cb89051d2f5b8302303c442346d15d0
+/home/tartti/git/jia/.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.0.1.0/build/autogen/cabal_macros.h:
+  hash: b512bab0cbaed759b7c3cab7dc2c7efa99accc80fa561457a57b147823cf7f97
+/home/tartti/git/jia/src/AesonUtils.hs:
+  hash: 1bf2f8b52f1481529a2d4e6f2f2fee80196a72def6350e4072a0f24872560921
+/home/tartti/git/jia/src/JiaJsonDecoder.hs:
+  hash: 2473f8f135c054b7bc20db73f85a50ce8e2c58001060383d0889ce9b706b4379
+/home/tartti/git/jia/README.md:
+  hash: af5c003d123459b9c3204337bfd2a2868094dd52a0ba35abc7f0b86d7810b3fb
+/usr/include/stdc-predef.h:
+  hash: cb08cd5d4cc059a90833ac48a284d25016e8d56ded8ad4cd98d8ac59cc5053f3
+/home/tartti/git/jia/package.yaml:
+  hash: 029f3f293b7c404399188d6d62169a40937bead3fd10c2af022041edd83e0bc5
+/home/tartti/git/jia/jia.cabal:
+  hash: 0b1ceacefbf96c6fd949ffc2aeb5b807fa72b6ab988423168b1ce1884302cbcd

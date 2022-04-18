@@ -1,0 +1,2 @@
+{"firstName":X}<-InputExample
+return X

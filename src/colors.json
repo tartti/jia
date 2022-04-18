@@ -1,0 +1,19 @@
+[
+    {
+        "color": "red",
+        "value": "#f00"
+    },
+    {
+        "color": "black",
+	    "value": "#000"
+    },
+    {
+        "color":"green",
+        "value": {[
+           "aw": {
+            "ad": "koira"
+           
+           }
+        ]}
+    }
+]

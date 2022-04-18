@@ -1,0 +1,2 @@
+{"phoneNumbers":{"number":X}}<-InputExample
+return X --palautuu phoneNumber arvot

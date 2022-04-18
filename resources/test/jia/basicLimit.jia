@@ -1,0 +1,3 @@
+{"firstName":X}<- Input
+LIMIT 1
+return (X) -- limit ei tee mitaan, kun vain yksi arvo
